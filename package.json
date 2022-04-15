@@ -1,0 +1,26 @@
+{
+  "name": "movieql",
+  "version": "1.0.0",
+  "description": "Movie Api with GraphQL",
+  "main": "index.js",
+  "repository": "https://github.com/AhmadNadeemS/movieQL",
+  "author": "Ahmad Nadeem",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@graphql-tools/schema": "^8.3.8",
+    "@graphql-yoga/node": "^2.2.1",
+    "axios": "^0.26.1",
+    "graphql": "^16.3.0",
+    "node-fetch": "^2.6.7"
+  },
+  "scripts": {
+    "start": "nodemon --exec ./node_modules/.bin/babel-node index.js"
+  },
+  "devDependencies": {
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "graphql-yoga": "^2.2.1",
+    "nodemon": "file:babel/cli@babel/core@babel/node@babel/preset-dev"
+  }
+}
